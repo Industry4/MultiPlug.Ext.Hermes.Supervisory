@@ -119,53 +119,28 @@ The use of XML means not only control messages can be sent between manufacturing
  				<hr class="space m" />		
             <div class="row">
                 <div class="col-md-3">
-                    <h2>What is the </br>Hermes </br>Supervisory System?</h2>
+                    <h2>What is the </br>Hermes </br>Supervisory System</h2>
                 </div>
                 <div class="col-md-9">
-                    <p>The Hermes Standard Supervisory System (Vertical Channel) is optional additional functionality allowing communication with third party software to download and upload Hermes data to the equipment.</p>
+                    <p>The Hermes Standard Supervisory System (Vertical Channel) is optional additional functionality allowing communication with third party software to download and upload Hermes records to the production equipment.</p>
                     <p>Functionality includes the creation of Hermes Board Records at the start of the line grouped as Work Orders, and live Board Tracking which can be used for historic production traceability.</p>
                 </div>
             </div>
 				<hr class="space m" />
             <div class="row">
                 <div class="col-md-3">
-                    <h2>Connected<br>Factory<br>Exchange?</h2>
+                    <h2>Connected<br>Factory<br>Exchange</h2>
                 </div>
                 <div class="col-md-9">
-                    <p>While the CFX (Connected Factory Exchange IPC-2591) has been marketed as the 'last' software interface required in a SMTA factory, the equipment vendors that use a PLC (Programmable Logic Controller) within their machines have indicated that they can't support AMQP (Advanced Message Queuing Protocol) which the CFX uses.</p>
+                    <p>While the CFX (Connected Factory Exchange) IPC-2591 has been marketed as the 'last' software interface required in a SMTA factory, the equipment vendors that use a PLC (Programmable Logic Controller) within their machines have indicated that they can't support AMQP (Advanced Message Queuing Protocol) which the CFX uses.</p>
                     <p>With Hermes Supervisory only requiring XML over TCP/IP Network Sockets and while the CFX constraint exists, the Hermes Supervisory System will be favoured by equipment vendors on SMT production lines.</p>
                 </div>
             </div>
-				<hr class="space m" />
-            <div class="row">
-                <div class="col-md-3">
-                    <h2>Installation</h2>
-                </div>
-                <div class="col-md-9">
-                    <p>The Hermes Standard Supervisory App is under development in a ALPHA MVP (Minimum Viable Product) state. To Install the MultiPlug App <a href="https://github.com/Industry4/MultiPlug.Ext.Hermes.Supervisory/wiki" target="_blank" title="MultiPlug.Ext.Hermes.Supervisory Wiki">read this Wiki</a>.</p>
-                </div>
-            </div>
-				<hr class="space m" />		
-            <div class="row">
-                <div class="col-md-3">
-                    <h2>The cost</h2>
-                </div>
-                <div class="col-md-9">
-                    <p>The price is currently undecided however it will be aimed at a low cost purchase to be accessible to the whole electronic manufacturing industry. <a href="https://www.smartfactorydirect.com/hermes-standard-supervisory-app-ipc-hermes-9852" target="_blank" title="Smart Factory Direct"> Check Software Resellers</a> for updated information.</p>
-                </div>
-            </div>
+
 			<hr class="space" />
             <div class="row">
                 <div class="col-md-4">
-                    <a class="img-box thumbnail lightbox row-12" data-lightbox-anima="fade-left" href="images/the-hermes-standard-cake.jpg" title="The Hermes Standard Cake">
-                        <span><img src="images/the-hermes-standard-cake.jpg" alt=""></span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-
-                    <h2>
-					Hermes Support
-                    </h2>
+                    <h2>Hermes Support</h2>
 					<hr class="space s" />
                     <ul class="fa-ul text-s ul-dots">
                         <li>Supervisory Service Description</li>
@@ -176,21 +151,40 @@ The use of XML means not only control messages can be sent between manufacturing
                         <li>Send Work Order Info</li>
                         <li>Reply Work Order Info</li>
                     </ul>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <h2>
-					Features
-                    </h2>
+					<hr class="space s" />
+                    <h2>Features</h2>
                    <hr class="space s" />
                     <ul class="fa-ul text-s ul-dots">
                         <li>SQLite Database Support</li>
-                        <li>Speedy Setup</li>
+                        <li>REST API</li>
                         <li>Software Extendable</li>
-                    </ul>				
-				
-				
-				
+                    </ul>	
+                </div>
+                <div class="col-md-8">
+                    <a class="img-box thumbnail lightbox" href="images/the-hermes-standard-supervisory-messages.jpg" title="The Hermes Standard Supervisory Messages">
+                        <span><img src="images/the-hermes-standard-supervisory-messages.jpg" alt="Diagram of a The Hermes Standard Supervisory Messages" title="The Hermes Standard Supervisory Messages"></span>
+                    </a>
+                </div>
+            </div>
+			<hr class="space" />
+            <div class="row">
+                <div class="col-md-4">
+                    <a class="img-box thumbnail lightbox row-12" data-lightbox-anima="fade-left" href="images/the-hermes-standard-cake.jpg" title="The Hermes Standard Cake">
+                        <span><img src="images/the-hermes-standard-cake.jpg" alt=""></span>
+                    </a>
+                </div>
+                <div class="col-md-8">
+
+                    <h2>
+					Installation
+                    </h2>
+
+<p>The Hermes Standard Supervisory App is under development in a ALPHA MVP (Minimum Viable Product) state. To Install the MultiPlug App <a href="https://github.com/Industry4/MultiPlug.Ext.Hermes.Supervisory/wiki" target="_blank" title="MultiPlug.Ext.Hermes.Supervisory Wiki">read this Wiki</a>.</p>
                     <hr class="space s" />
+					
+
+                </div>
+                <div class="col-md-4 col-sm-12">
                     <h2>
                         System Requirements
                     </h2>
@@ -198,8 +192,15 @@ The use of XML means not only control messages can be sent between manufacturing
                     <ul class="fa-ul text-s ul-dots">
                         <li>Windows or Linux Host Computer</li>
                         <li>Google Chrome Web Browser or Microsoft Edge</li>
-                        <li>MultiPlug 2.2.82 or newer</li>
+                        <li>MultiPlug 2.2.82.1 or newer</li>
                     </ul>
+                </div>
+	                <div class="col-md-4 col-sm-12">
+                    <h2>
+                        Try or Buy
+                    </h2>
+                    <hr class="space s" />
+<p>Aimed at a low cost purchase to be accessible to the whole electronic manufacturing industry. <a href="https://www.smartfactorydirect.com/hermes-standard-supervisory-app-ipc-hermes-9852" target="_blank" title="Smart Factory Direct"> Check Software Resellers</a> for latest prices.</p>
                 </div>
             </div>
 			<hr class="space" />	
@@ -213,7 +214,7 @@ The use of XML means not only control messages can be sent between manufacturing
                     <p>1. Create a collection of PCB Boards described as a Work Order using saved Work Order/Product templates and variable values.</p>
                     <p>2. Monitor Active Work Orders</p>
                     <p><b>Hermes Equipment Requirement</b></p>
-                    <p>1. The equipment should request the Work Order by the QueryWorkOrderInfomessage Hermes message.</p>
+                    <p>1. The equipment should request the Work Order by the QueryWorkOrderInfo Hermes message.</p>
                     <p>2. The equipment should support the ReplyWorkOrder Info Hermes message.</p>
                     <p>Click the image for a larger animation.</p>
                 </div>
@@ -376,7 +377,7 @@ The use of XML means not only control messages can be sent between manufacturing
         <script src="scripts/bootstrap/js/bootstrap.popover.min.js"></script>
         <script src='scripts/php/contact-form.js'></script>
         <script src='scripts/jquery.progress-counter.js'></script>
-        <script src="scripts/smooth.scroll.min.js"></script>
+        <! -- <script src="scripts/smooth.scroll.min.js"></script> -->
     </footer>
 </body>
 </html>
